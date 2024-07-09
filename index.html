@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Kanawa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">Reserva Kanawa</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-reserva" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Reserva
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#atividades" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Atividades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#estrutura" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossa Estrutura
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-reserva">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/carousel/slide1.jpg" alt="Foto da Reserva">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/carousel/slide2.jpg" alt="Foto da Reserva">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/carousel/slide3.jpg" alt="Foto da Reserva">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/reserva2.jpg" class="d-block w-100 rounded" alt="Foto da Reserva">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a Reserva</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi iure placeat, dolorum deleniti tempora repudiandae illo molestiae facilis dicta suscipit nesciunt velit unde. A inventore odio accusamus porro consectetur debitis.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. In cupiditate omnis aperiam, eius possimus, fugiat eligendi ipsum nemo nobis at fuga quidem eum aliquid quaerat illum distinctio est tempora enim.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="atividades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Atividades da <span class="text-colored">Reserva</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./img/atividades/trilhas2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <svg version="1.0" class="icone" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="30px" height="30px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                                <path d="M52.832,10c-5.521,0-9.999,4.479-9.999,10s4.478,10,9.999,10c5.521,0,10-4.479,10-10S58.353,10,52.832,10z"/>
+                                <polygon points="26.564,90 31.089,79.082 27.482,70.371 19.347,90 "/>
+                                <path d="M22.876,64.069C15.729,63.821,10,57.985,10,50.781c0-11.045,11.945-20,26.667-20L22.876,64.069z"/>
+                                <path d="M64.043,77.148L73.333,40h-6.871l-2.5,10h-9.135l-5.836-14.115l-6.164-2.552L31.089,61.667l6.074,14.661V90H90V69.733
+                                L64.043,77.148z M45.377,44.596l4.994,12.071h11.924l-5.647,22.598L43.83,82.927V75l-5.525-13.333L45.377,44.596z"/>
+                            </svg>
+                            Trilhas
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illum harum pariatur quam excepturi recusandae deleniti enim est itaque. Pariatur odit numquam, corporis quasi voluptatibus accusamus vel ea ratione. Perspiciatis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/atividades/canoagem2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <svg version="1.0" class="icone" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="30px" height="30px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <path d="M78.46,40.316C84.153,30.742,88.235,20.462,90,10c-10.462,1.764-20.742,5.846-30.319,11.537
+                            C68.386,24.645,75.352,31.615,78.46,40.316z"/>
+                        <path d="M21.537,59.681C15.846,69.258,11.764,79.538,10,90c10.459-1.765,20.742-5.847,30.316-11.536
+                            C31.611,75.352,24.645,68.386,21.537,59.681z"/>
+                        <path d="M33.167,43.773c-2.321,2.653-4.554,5.381-6.602,8.226c1.155,11.217,10.218,20.279,21.429,21.436
+                            c2.852-2.048,5.577-4.281,8.229-6.605L33.167,43.773z"/>
+                        <path d="M82.93,73.503l-10.013-4.121l-9.479-9.479c3.594-3.757,6.979-7.712,9.997-11.908c-1.159-11.211-10.222-20.273-21.433-21.429
+                            c-4.196,3.018-8.148,6.403-11.904,9.997l-9.476-9.476h0.003L26.5,17.07L19.43,10L10,19.427l7.074,7.07l10.013,4.121L69.375,72.91
+                            v0.003l4.128,10.017l7.07,7.07L90,80.573L82.93,73.503z"/>
+                        </svg>
+                            Canoagem
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illum harum pariatur quam excepturi recusandae deleniti enim est itaque. Pariatur odit numquam, corporis quasi voluptatibus accusamus vel ea ratione. Perspiciatis.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/atividades/acampamento2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <svg version="1.0" class="icone"  id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="30px" height="30px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <path d="M53.333,20C57.454,23.412,60,28.125,60,33.333c0,5.524-4.479,10-10,10c-5.524,0-10-4.476-10-10
+                            C40,24.219,45.098,15.97,53.333,10c-16.569,0-30,14.922-30,33.333C23.331,58.06,35.27,70,50,70c14.727,0,26.667-11.94,26.667-26.667
+                            C76.667,30.449,66.221,20,53.333,20z"/>
+                        <path d="M25.117,65.117c-0.114-6.399-5.391-11.677-11.784-11.784C13.438,59.727,18.717,65.007,25.117,65.117z"/>
+                        <path d="M86.667,53.333c-6.4,0.114-11.677,5.391-11.784,11.784C81.276,65.013,86.556,59.733,86.667,53.333z"/>
+                        <polygon points="79.98,76.504 78.479,70.007 50,76.582 21.519,70.007 20.02,76.504 35.177,80.003 20.02,83.503 21.519,90 50,83.425 
+                            78.479,90 79.98,83.503 64.824,80.003 "/>
+                        </svg>
+                            Acampamento
+                        </h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum illum harum pariatur quam excepturi recusandae deleniti enim est itaque. Pariatur odit numquam, corporis quasi voluptatibus accusamus vel ea ratione. Perspiciatis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estrutura" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossa <span class="text-colored">estrutura</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-estrutura">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hospedarias" class="fw-bold text-start nav-link text-colored active">Hospedarias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#trilhas" class="fw-bold text-start nav-link text-colored">Trilhas terrestres</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#trilhas-aquaticas" class="fw-bold text-start nav-link text-colored">Trilhas aquáticas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#alimentacao" class="fw-bold text-start nav-link text-colored">Alimentação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#contemplacao" class="fw-bold text-start nav-link text-colored">Contemplação</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="hospedarias">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/hospedarias/quarto-pousada.jpg" alt="Quarto na pousada principal">
+                                        <h5 class="text-colored fw-bold mt-2">Quarto na pousada principal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/hospedarias/chale.jpg" alt="Chalé">
+                                        <h5 class="text-colored fw-bold mt-2">Chalé privativo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/hospedarias/bangalo.jpg" alt="Bangalô beira rio">
+                                        <h5 class="text-colored fw-bold mt-2">Bangalô beira rio</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/hospedarias/cabana.jpg" alt="Cabana rústica">
+                                        <h5 class="text-colored fw-bold mt-2">Cabana rústica</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/hospedarias/camping-estruturado.jpg" alt="Área de camping estruturada">
+                                        <h5 class="text-colored fw-bold mt-2">Área de camping estruturada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/hospedarias/camping-selvagem.jpg" alt="Espaço para acampamento selvagem">
+                                        <h5 class="text-colored fw-bold mt-2">Espaço para acampamento selvagem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="trilhas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/trilhas_terrestres/trilha_neblina.jpg" alt="Trilha da Neblina">
+                                        <h5 class="text-colored fw-bold mt-2">Trilha da Neblina</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/trilhas_terrestres/trilha_buraco_das_aranhas.jpg" alt="Trilha do Buraco das Aranhas">
+                                        <h5 class="text-colored fw-bold mt-2">Trilha do Buraco das Aranhas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="trilhas-aquaticas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/trilhas_aquaticas/trilha_rio_kanawah.jpg" alt="Descida no Rio Kanawah">
+                                        <h5 class="text-colored fw-bold mt-2">Descida no Rio Kanawah</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/trilhas_aquaticas/trilha_rio_oroh.jpg" alt="Remada no Rio Orôh">
+                                        <h5 class="text-colored fw-bold mt-2">Remada no Rio Orôh</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/trilhas_aquaticas/trilha_lago_santa_chiara.jpg" alt="Remada pela Lagoa Santa Chiara">
+                                        <h5 class="text-colored fw-bold mt-2">Remada pela Lagoa Santa Chiara</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="alimentacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/alimentacao/restaurante.jpg" alt="Almoço e Jantar">
+                                        <h5 class="text-colored fw-bold mt-2">Almoço e Jantar</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/alimentacao/cafe_da_manha.jpg" alt="Café da Manhã">
+                                        <h5 class="text-colored fw-bold mt-2">Café da Manhã</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="contemplacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/contemplacao/fotografia.jpg" alt="Fotografia">
+                                        <h5 class="text-colored fw-bold mt-2">Fotografia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/contemplacao/por_do_sol_lagoa.jpg" alt="Pôr do sol na Lagoa">
+                                        <h5 class="text-colored fw-bold mt-2">Pôr do sol na Lagoa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/estrutura/contemplacao/por_do_sol_morro.jpg" alt="Pôr do sol no mirante do Morro">
+                                        <h5 class="text-colored fw-bold mt-2">Pôr do sol no mirante do Morro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="text" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - Campo Grande - MS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="text-center pt-2 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 footer-text">
+                    &copy; Reserva Kanawa - Todos os direitos reservados - 2024
+                </div>                
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#telefone').mask('(00) 00000-0000')
+        })
+    </script>
+</body>
+</html>
